@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Store E-Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .model-section {
+            flex: 1;
+            height: 600px;
+        }
+
+        .model-section iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 20px;
+        }
+
+        .info-section {
+
+            width: 30%;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        .shoe-title {
+            font-size: 2.5em;
+            background: linear-gradient(to right,
+                    #ff7e5f,
+                    #feb47b,
+                    #86a8e7,
+                    #7f7fd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .shoe-description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #4a5568;
+            margin-bottom: 30px;
+        }
+
+        .shoe-features {
+            list-style: none;
+            padding: 0;
+        }
+
+        .shoe-features li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .shoe-features li:hover {
+            transform: translateX(10px);
+        }
+
+        .shoe-features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            background: linear-gradient(to right,
+                    #ff7e5f,
+                    #feb47b,
+                    #86a8e7,
+                    #7f7fd5);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">
+                <img width="100px" src="Logo.png" alt="Soul Store Logo" class="h-8 inline-block mr-2">
+            </a>
+            <ul class="flex space-x-4">
+                <li class="relative group">
+                    <a href="#" class="text-gray-300 hover:text-white">Home</a>
+                    <ul
+                        class="absolute hidden group-hover:block bg-gray-800 text-gray-300 mt-2 space-y-2 p-2 rounded shadow-lg">
+                        <li><a href="#" class="hover:text-white">Submenu 1</a></li>
+                        <li><a href="#" class="hover:text-white">Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#" class="text-gray-300 hover:text-white">Shop</a>
+                    <ul
+                        class="absolute hidden group-hover:block bg-gray-800 text-gray-300 mt-2 space-y-2 p-2 rounded shadow-lg">
+                        <li><a href="#" class="hover:text-white">Category 1</a></li>
+                        <li><a href="#" class="hover:text-white">Category 2</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#" class="text-gray-300 hover:text-white">About</a>
+                    <ul
+                        class="absolute hidden group-hover:block bg-gray-800 text-gray-300 mt-2 space-y-2 p-2 rounded shadow-lg">
+                        <li><a href="#" class="hover:text-white">Our Story</a></li>
+                        <li><a href="#" class="hover:text-white">Team</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+                    <ul
+                        class="absolute hidden group-hover:block bg-gray-800 text-gray-300 mt-2 space-y-2 p-2 rounded shadow-lg">
+                        <li><a href="#" class="hover:text-white">Support</a></li>
+                        <li><a href="#" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fas fa-search"></i></a>
+                <a href="#" class="text-gray-300 hover:text-white"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Add your page content here -->
+
+    <div class="container">
+
+
+    </div>
+
+
+    <div class="container">
+        <div class="model-section">
+            <iframe src="https://my.spline.design/3dinteractivenikeshoeproductpage-5fa7ffab5f389653e5045cbb56b29690/"
+                frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+        <div class="info-section">
+            <h1 class="shoe-title">Nike Air Max 2023</h1>
+            <p class="shoe-description">
+                Experience ultimate comfort and style with the new Nike Air Max 2023.
+                Featuring revolutionary cushioning technology and sleek design, these
+                shoes are perfect for both athletic performance and casual wear.
+            </p>
+            <ul class="shoe-features">
+                <li>Nike Air cushioning for maximum comfort</li>
+                <li>Breathable mesh upper</li>
+                <li>Durable rubber outsole</li>
+                <li>Dynamic support system</li>
+                <li>Available in multiple colorways</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const infoSection = document.querySelector(".info-section");
+            infoSection.style.opacity = "0";
+            infoSection.style.transform = "translateY(20px)";
+
+            setTimeout(() => {
+                infoSection.style.transition = "all 1s ease-in";
+                infoSection.style.opacity = "1";
+                infoSection.style.transform = "translateY(0)";
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

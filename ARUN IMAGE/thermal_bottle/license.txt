@@ -1,0 +1,11 @@
+Model Information:
+* title:	Thermal bottle
+* source:	https://sketchfab.com/3d-models/thermal-bottle-70abae7474164cc7b0ebcac2bd7f74d8
+* author:	Speed (https://sketchfab.com/Speeedd)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Thermal bottle" (https://sketchfab.com/3d-models/thermal-bottle-70abae7474164cc7b0ebcac2bd7f74d8) by Speed (https://sketchfab.com/Speeedd) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
